@@ -1,5 +1,4 @@
 <scheme name="Indigo Obscure" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Fira Code" />
     <option name="EDITOR_FONT_SIZE" value="12" />
@@ -8,12 +7,13 @@
     <option name="EDITOR_FONT_NAME" value="Consolas" />
     <option name="EDITOR_FONT_SIZE" value="12" />
   </console-font>
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.5" />
   <colors>
+    <option name="ADDED_LINES_COLOR" value="5e9b74" />
     <option name="CARET_COLOR" value="f2f3f4" />
-    <option name="CARET_ROW_COLOR" value="182233" />
+    <option name="CARET_ROW_COLOR" value="1e2735" />
     <option name="CONSOLE_BACKGROUND_KEY" value="111a29" />
+    <option name="DELETED_LINES_COLOR" value="bc4369" />
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="20293b" />
     <option name="FILESTATUS_ADDED" value="a3d296" />
     <option name="FILESTATUS_COPIED" value="a3d296" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="6b6c7d" />
@@ -23,26 +23,34 @@
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="a3d296" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
     <option name="FILESTATUS_IDEA_SVN_REPLACED" value="629755" />
-    <option name="FILESTATUS_MODIFIED" value="7fb0d0" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="7fb0d0" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="7fb0d0" />
+    <option name="FILESTATUS_MERGED" value="ba82cb" />
+    <option name="FILESTATUS_MODIFIED" value="70bdea" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="70bdea" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="70bdea" />
+    <option name="FILESTATUS_RENAMED" value="3faeae" />
     <option name="FILESTATUS_UNKNOWN" value="d15a76" />
     <option name="FILESTATUS_addedOutside" value="a3d296" />
     <option name="FILESTATUS_changelistConflict" value="efaca6" />
-    <option name="FILESTATUS_modifiedOutside" value="7fb0d0" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="1e2a3e" />
+    <option name="FILESTATUS_modifiedOutside" value="70bdea" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="212b3b" />
     <option name="GUTTER_BACKGROUND" value="111a29" />
+    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="5e9b74" />
+    <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="bc4369" />
+    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="2e5775" />
     <option name="INDENT_GUIDE" value="20293b" />
     <option name="LINE_NUMBERS_COLOR" value="4e5667" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="a8aeb5" />
+    <option name="MODIFIED_LINES_COLOR" value="2e5775" />
     <option name="RIGHT_MARGIN_COLOR" value="20293b" />
     <option name="SELECTED_INDENT_GUIDE" value="373f56" />
     <option name="SELECTED_TEARLINE_COLOR" value="373f56" />
-    <option name="SELECTION_BACKGROUND" value="6c7384" />
+    <option name="SELECTION_BACKGROUND" value="283243" />
+    <option name="SELECTION_FOREGROUND" value="ecf1f1" />
     <option name="SEPARATOR_ABOVE_COLOR" value="20293b" />
     <option name="SEPARATOR_BELOW_COLOR" value="20293b" />
     <option name="TEARLINE_COLOR" value="20293b" />
     <option name="VISUAL_INDENT_GUIDE" value="20293b" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4f5768" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -50,6 +58,28 @@
       <value>
         <option name="EFFECT_COLOR" value="ff4262" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="20293b" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="bec6ca" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_HOVERED">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="20293b" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_INACTIVE">
+      <value>
+        <option name="FOREGROUND" value="5d6976" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -80,6 +110,11 @@
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
         <option name="FOREGROUND" value="d7dcea" />
+      </value>
+    </option>
+    <option name="CONSOLE_RANGE_TO_EXECUTE">
+      <value>
+        <option name="EFFECT_COLOR" value="253428" />
       </value>
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
@@ -154,8 +189,8 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="46a3ab" />
-        <option name="EFFECT_COLOR" value="46a3ab" />
+        <option name="FOREGROUND" value="a1a4b1" />
+        <option name="EFFECT_COLOR" value="a1a4b1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -222,8 +257,7 @@
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="de6792" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="f0becd" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
@@ -328,10 +362,28 @@
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
+    <option name="DIFF_CONFLICT">
+      <value>
+        <option name="BACKGROUND" value="45302b" />
+        <option name="ERROR_STRIPE_COLOR" value="7c291c" />
+      </value>
+    </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="4b2234" />
-        <option name="ERROR_STRIPE_COLOR" value="4b2234" />
+        <option name="BACKGROUND" value="411c2e" />
+        <option name="ERROR_STRIPE_COLOR" value="ab3666" />
+      </value>
+    </option>
+    <option name="DIFF_INSERTED">
+      <value>
+        <option name="BACKGROUND" value="1f3228" />
+        <option name="ERROR_STRIPE_COLOR" value="53a26b" />
+      </value>
+    </option>
+    <option name="DIFF_MODIFIED">
+      <value>
+        <option name="BACKGROUND" value="1e2a3e" />
+        <option name="ERROR_STRIPE_COLOR" value="336392" />
       </value>
     </option>
     <option name="DUPLICATE_FROM_SERVER">
@@ -348,14 +400,13 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="e1e5e7" />
-        <option name="BACKGROUND" value="1e2a3e" />
+        <option name="EFFECT_COLOR" value="2c5370" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="46a3ab" />
-        <option name="EFFECT_COLOR" value="46a3ab" />
+        <option name="FOREGROUND" value="a1a4b1" />
+        <option name="EFFECT_COLOR" value="a1a4b1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -365,13 +416,13 @@
     <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="868dac" />
+        <option name="FOREGROUND" value="7e87a5" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="46a3ab" />
-        <option name="EFFECT_COLOR" value="46a3ab" />
+        <option name="FOREGROUND" value="a1a4b1" />
+        <option name="EFFECT_COLOR" value="a1a4b1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -384,7 +435,7 @@
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="737373" />
+        <option name="EFFECT_COLOR" value="b3b3b3" />
         <option name="ERROR_STRIPE_COLOR" value="8a8a85" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -502,8 +553,9 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="e9e9cd" />
-        <option name="ERROR_STRIPE_COLOR" value="bfdeba" />
+        <option name="FOREGROUND" value="13222b" />
+        <option name="BACKGROUND" value="b8b79a" />
+        <option name="ERROR_STRIPE_COLOR" value="b8b79a" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
@@ -559,8 +611,11 @@
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="868dac" />
+        <option name="FOREGROUND" value="7e87a5" />
       </value>
     </option>
   </attributes>
+  <option name="FONT_SCALE" value="1.0" />
+  <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="1.5" />
 </scheme>
